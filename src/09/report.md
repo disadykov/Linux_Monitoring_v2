@@ -89,18 +89,18 @@ echo s21_disk_size $DISK_SIZE
 
 На рисунке представлен результат запуска срипта:
 
-  ![script](src/09/img/1-1.png "Запуск скрипта")
+  ![script](img/1-1.png "Запуск скрипта")
 
 #### 
 -------------------------
 
 В таргетах **Prometheus** убеждаемся, что появилась новая метрика:
 
-  ![Prometheus](src/09/img/1-2.png "Prometheus")
+  ![Prometheus](img/1-2.png "Prometheus")
 
 Так же проверяем что страничка из созданного таргета доступна и в ней находятся созданные скриптом метрики:
 
-  ![metrics](src/09/img/1-3.png "metrics")
+  ![metrics](img/1-3.png "metrics")
 
 #### 
 -------------------------
@@ -109,11 +109,11 @@ echo s21_disk_size $DISK_SIZE
 
 Добавляем созданные нами метрики и убеждаемся, что **Prometheus** собирает данные с созданной странички
 
-  ![Prometheus2](src/09/img/1-4.png "Prometheus2")
+  ![Prometheus2](img/1-4.png "Prometheus2")
 
 Построим в **Grafana** новый дашборд, который получает данные с созданной сранички:
 
-  ![grafana](src/09/img/1-5.png "grafana")
+  ![grafana](img/1-5.png "grafana")
 
 #### 
 -------------------------
